@@ -1,46 +1,58 @@
-.bg-custom-1 {
+  .bg-custom-1 
+  {
     background-color: #85144b;
   }
   
-  .bg-custom-2 {
+  .bg-custom-2 
+  {
     background-image: linear-gradient(15deg, #048aff 0%, #c13dff 100%);
   }
 
-    .bg-custom-3 {
-        
+    .bg-custom-3 
+    {
         background-image: linear-gradient(15deg, #048aff 0%, #c13dff 100%);
-       
     }
 
-    .tx-custom-1 {
+    .tx-custom-1 
+    {
         background: -webkit-linear-gradient(#048aff, #c13dff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
-    h1 span {
+    h1 span 
+    {
       transition: 0.5s ease-out;
     }
-    h1:hover span:nth-child(1) {
+    h1:hover span:nth-child(1) 
+    {
       margin-right: 5px;
     }
-    h1:hover span:nth-child(1):after {
+    h1:hover span:nth-child(1):after 
+    {
       content: "'";
     }
-    h1:hover span:nth-child(2) {
+    h1:hover span:nth-child(2) 
+    {
       margin-left: 30px;
     }
 
-    .zoom {
-      /*padding: 50px;*/
+    .zoom 
+    {
       transition: transform .2s; /* Animation */
-     /* width: 200px;
-      height: 200px;*/
       margin: 0 auto;
     }
     
-    .zoom:hover {
+    .zoom:hover 
+    {
       transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    .rndW 
+    {
+      background: url(https://i.imgur.com/Nsgnxcp.gif) no-repeat center center fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
     }
 
 

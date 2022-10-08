@@ -48,12 +48,32 @@
       transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
 
+    .zoomSoft 
+    {
+      transition: transform .2s; /* Animation */
+      margin: 0 auto;
+    }
+    
+    .zoomSoft:hover 
+    {
+      transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
     .rndW 
     {
       background: url(https://i.imgur.com/Nsgnxcp.gif) no-repeat center center fixed;
       background-size: cover;
       -webkit-background-size: cover;
     }
+
+    .card-text 
+    {
+      color: white;
+    }
+
+    .jumbotronTransparent {
+      background: none;             /* Transparent background */
+  }
 
 
 

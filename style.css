@@ -48,17 +48,6 @@
       transform: scale(1.1); 
     }
 
-    .zoomSoft 
-    {
-      transition: transform .2s; /* Animation */
-      margin: 0 auto;
-    }
-    
-    .zoomSoft:hover 
-    {
-      transform: scale(1.1); 
-    }
-
     .rndW 
     {
       background: url(https://i.imgur.com/Nsgnxcp.gif) no-repeat center center fixed;

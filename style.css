@@ -8,20 +8,6 @@
     background-image: linear-gradient(15deg, #048aff 0%, #c13dff 100%);
   }
 
-    .bg-custom-3 
-    {
-        background-image: linear-gradient(15deg, #048aff 0%, #c13dff 100%);
-    }
-
-    .tx-custom-1 
-    {
-        background: -webkit-linear-gradient(#048aff, #c13dff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-
-
     .zoom 
     {
       transition: transform .2s; /* Animation */
@@ -31,13 +17,6 @@
     .zoom:hover 
     {
       transform: scale(1.1); 
-    }
-
-    .rndW 
-    {
-      background: url(https://i.imgur.com/Nsgnxcp.gif) no-repeat center center fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
     }
 
     .card-text 
